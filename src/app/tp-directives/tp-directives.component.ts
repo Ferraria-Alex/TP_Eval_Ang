@@ -10,7 +10,7 @@ import { NgIf,NgFor,NgStyle,NgClass } from '@angular/common';
 export class TPDirectivesComponent {
   btnText: string = 'Afficher Détails'; 
   toggle: boolean = false;
-  arr: number[] = [1,2,3,4,5,6,7,8,9,10,11,12];
+  arr: number[] = [1];
 
   toggleDetails(){
     this.toggle = !this.toggle;
